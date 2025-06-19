@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# Django media (user uploads)
+media/
+*.log
+
+# Django static files (only if you collect them manually)
+staticfiles/
+static_root/
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# dotenv or secret files
+.env
+*.env
+
+migrations/
